@@ -1,2 +1,2 @@
 # Restaurant-project
-Adding up bot flex and grid formation in the project
+Adding up both flex and grid formation in the project
