@@ -1,16 +1,17 @@
-.menu a {
-  background: var(--yellow);
-  display: block;
-  text-decoration: none;
-  padding: 10px;
-  text-align: center;
-  color: var(--black);
-  text-transform: uppercase;
-  font-size: 20px;
-}
-.menu ul {
+.HeaderButton {
   display: flex;
-  flex-basis: 20em;
-  padding: 0;
-  list-style: none;
+  flex-wrap: wrap;
+}
+
+.child {
+  flex: 0 1 300px;
+  flex: 1 1 300px;
+  border: 1px solid black;
+  background: yellow;
+  font-size: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, serif;
 }
